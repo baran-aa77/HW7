@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Title</title>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <form id="userForm">
+      <div class="row mt-5">
+
+        <div class="col-12 col-md-6 mb-3">
+          <label for="first_name" class="form-label">Firstname</label>
+          <input type="text" class="form-control" id="first_name" name="first_name" placeholder="baran">
+        </div>
+        <div class="col-12 col-md-6 mb-3">
+          <label for="last_name" class="form-label">Lastname</label>
+          <input type="text" class="form-control" id="last_name" name="last_name" placeholder="rezayi">
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <label for="code" class="form-label">code</label>
+          <input type="text" maxlength="10" class="form-control" id="code" name="code" placeholder="nation code">
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <label for="form" class="form-label">Emailaddress</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="baran.a58@gmail.com">
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <label for="phone" class="form-label">Phonenumber</label>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="0922-----">
+        </div>
+        <div class="col-12 mb-3">
+          <input type="submit" id="usersubmit" value="create" class="btn btn-success">
+        </div>
+      </div>
+    </form>
+    <table class="table table-striped">
+      <thead>
+        <tr class="bg-success text-light">
+          <td>id</td>
+          <td>first_name</td>
+          <td>last_name</td>
+          <td>code</td>
+          <td>phone</td>
+          <td>email</td>
+          <td>action</td>
+        </tr>
+      </thead>
+      <tbody class="table-tbody">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
